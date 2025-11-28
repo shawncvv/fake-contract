@@ -1,0 +1,40 @@
+{
+  "name": "fake-contract-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive test suite for GAIX scam contract analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:verbose": "hardhat test --verbose",
+    "test:config": "hardhat test test/Configuration.test.js",
+    "test:docs": "hardhat test test/Documentation.test.js",
+    "test:contract": "hardhat test test/GAIX.test.js",
+    "coverage": "hardhat coverage",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawncvv/fake-contract.git"
+  },
+  "keywords": [
+    "smart-contract",
+    "security",
+    "testing",
+    "ethereum",
+    "solidity",
+    "scam-analysis",
+    "erc20"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shawncvv/fake-contract/issues"
+  },
+  "homepage": "https://github.com/shawncvv/fake-contract#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.27.1"
+  }
+}
