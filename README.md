@@ -15,7 +15,7 @@
 
 ## 📁 目录结构
 
-```
+```text
 fake-contract/
 ├── README.md                 # 项目说明文档
 ├── GAIX.sol                 # GAIX诈骗合约源码
